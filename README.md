@@ -35,7 +35,7 @@ pip install -r requirements.txt
 
 ### Run
 
-From the root of the project directory, run ```python main.py```
+From the root of the project directory, run ```python automation/main.py```
 
 ## Usage
 
