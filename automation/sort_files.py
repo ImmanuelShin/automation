@@ -36,9 +36,6 @@ def sort_documents(username):
             shutil.move(source_file, destination_file)
 
             console.print(f"[bold green]File '{filename}' moved to '{file_type}' folder successfully.[/bold green]")
-        else:
-            console.print(f"[bold yellow]Skipping file '{filename}' as it does not match the desired types.[/bold yellow]")
-
 
 def get_file_type(file):
     """
